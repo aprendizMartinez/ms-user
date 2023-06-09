@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "user",
+    "dateExported": "2023-03-24T22:34:36.592Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "fb32141a-4a0e-49f8-9aa9-e00dec489887",
+            "colId": "dd6c6850-f843-48f5-8b3e-0e7681ccded7",
+            "containerId": "",
+            "name": "BORRAR",
+            "url": "localhost:3000/api/user/7",
+            "method": "DELETE",
+            "sortNum": 10000,
+            "created": "2023-03-24T22:33:31.504Z",
+            "modified": "2023-03-24T22:33:31.504Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "423dfcba-00d0-48ea-8115-279bda64ad4e",
+            "colId": "dd6c6850-f843-48f5-8b3e-0e7681ccded7",
+            "containerId": "",
+            "name": "ACTUALIZAR",
+            "url": "localhost:3000/api/user",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2023-03-24T22:33:42.392Z",
+            "modified": "2023-03-24T22:33:42.392Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\":7,\n  \"name\":\"DANIEL SE FUE\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "4513796a-6ffe-4fcf-918c-22cb46e17ce5",
+            "colId": "dd6c6850-f843-48f5-8b3e-0e7681ccded7",
+            "containerId": "",
+            "name": "INSERTAR",
+            "url": "http://localhost:3000/api/user",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-03-24T22:33:50.256Z",
+            "modified": "2023-03-24T22:33:50.256Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"DUBAN\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "d0a04e75-0438-4836-bcf4-9ab3cf97d28a",
+            "colId": "dd6c6850-f843-48f5-8b3e-0e7681ccded7",
+            "containerId": "",
+            "name": "BUSCAR",
+            "url": "http://localhost:3000/api/user/3",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-03-24T22:33:55.272Z",
+            "modified": "2023-03-24T22:33:55.272Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "af10cff4-a932-4e66-b29d-8b196825ce8f",
+            "colId": "dd6c6850-f843-48f5-8b3e-0e7681ccded7",
+            "containerId": "",
+            "name": "MOSTRAR",
+            "url": "http://localhost:3000/api/user",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-03-24T22:34:00.096Z",
+            "modified": "2023-03-24T22:34:00.096Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
